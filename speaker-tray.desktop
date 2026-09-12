@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Speaker Tray
+Comment=Lenovo Yoga speakers-after-sleep fix tray widget
+Exec=python3 /PATH/TO/lenovo-yoga-speakers-fix/speaker-tray.py
+Icon=audio-speakers
+Terminal=false
+Categories=Audio;
+StartupNotify=false

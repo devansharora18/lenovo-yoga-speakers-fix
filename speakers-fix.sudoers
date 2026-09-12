@@ -1,0 +1,9 @@
+# Passwordless sudo for the speaker fix so the tray widget needs no password.
+#
+# INSTALL (edit the path to match your clone location first):
+#   sudo install -m 440 speakers-fix.sudoers /etc/sudoers.d/speakers-fix
+#
+# Replace <USER> with your Linux username and <PATH> with the absolute path
+# to speakers.sh inside this repo, e.g.:
+#   youruser ALL=(ALL) NOPASSWD: /bin/bash /home/youruser/lenovo-yoga-speakers-fix/speakers.sh
+<USER> ALL=(ALL) NOPASSWD: /bin/bash <PATH>/speakers.sh
